@@ -1,0 +1,15 @@
+@media (max-width: 500px) {
+}
+
+input {
+    margin: 1em;
+    width: 50%;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.test {
+    font-size: 46px;
+    margin: 0;
+}

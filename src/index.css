@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'Titillium Web';
+}
+
+
+body {
+  background: rgb(245, 121, 64);
+  background: linear-gradient(180deg, rgb(240, 25, 50) 100%, rgba(241, 183, 107, 0.88) 2%);
+}
+
+body.workout {
+  background: blue;
+  background: linear-gradient(180deg, rgba(34, 8, 131, 0.88) 0%, rgb(56, 162, 207) 100%);
+}
+
+body.restout {
+  background: rgb(245, 121, 64);
+  background: linear-gradient(180deg, rgb(240, 25, 50) 100%, rgba(241, 183, 107, 0.88) 2%);
+}
